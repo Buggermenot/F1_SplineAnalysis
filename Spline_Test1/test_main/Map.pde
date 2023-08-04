@@ -1,8 +1,7 @@
 class Map {
   ArrayList<PVector> inside_edge, outside_edge;
   String name;
-  Map (String name){
-    this.name = name;
+  Map (){
     this.resetTrack();
   }
   
