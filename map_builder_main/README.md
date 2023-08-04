@@ -1,5 +1,5 @@
+***The map builder and Spline testing work independently.***
 ## How to Use
-- The map builder and Spline testing work independently.
 - set ```trackFile``` value to a filename that you'll save the track to. Default to ```track1.txt```.
 - run the script.
 - click on the screen to place vertices for the path. Edges are generated between consequtive vertices.
