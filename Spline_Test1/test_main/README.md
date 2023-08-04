@@ -6,7 +6,7 @@
   5. All placed points can be clicked and dragged around interactively.
 
 ### Keybinds
-- ```q```: Complete the track but connecting the last and first anchors.
+- ```q```: Complete the track by connecting the last and first anchors.
 - ```w```: Toggle being able to add new points to track.  **DEPRECATED**
 - ```g```: Display Grid.
 - ```c```: Hide/Show anchor and control points. Always views path.
