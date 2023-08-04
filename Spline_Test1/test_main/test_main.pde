@@ -2,7 +2,8 @@ ArrayList<SPoint> points;
 ArrayList<PVector> grid[][];
 int dx, dy, dv = 10;
 
-String filename = "trackpath.txt";
+String trackPath = "trackpath.txt";
+String mapFile = "Track1.txt";
 
 Map track;
                            // Keybinds
@@ -19,8 +20,8 @@ void setup() {
   reload();
   
   // Map
-  track = new Map("HERO");
-  track.loadFromFile("Track1.txt");
+  track = new Map();
+  track.loadFromFile(mapFile);
 }
 
 void reload() {
@@ -196,7 +197,7 @@ void keyPressed() {
 }
 
 void loadSplines() {
-  String splines[] = loadStrings(filename);
+  String splines[] = loadStrings(trackPath);
   if (splines == null) return;
   
   for (int i = 0; i < splines.length; i+=3){
@@ -233,5 +234,5 @@ void savePathSpline(){
     splines[_i+2] = "" + int(c2.x) + "," + int(c2.y);
   }
   
-  saveStrings(filename, splines);
+  saveStrings(trackPath, splines);
 }
