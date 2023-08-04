@@ -20,7 +20,7 @@
   3. click on the screen to add a new anchor point to path. This generates a new anchor point along with two control points.
   4. Bezier curve is lerped in the following way: anchor1 -> control2 for anchor 1 -> control1 for anchor2 -> anchor2.
   5. All placed points can be clicked and dragged around interactively.
-  6. ```q```: Complete the track but connecting the last and first anchors.
+  6. ```q```: Complete the track by connecting the last and first anchors.
   7. ```w```: Toggle being able to add new points to track.  **DEPRECATED**
   8. ```g```: Display Grid.
   9. ```c```: Hide/Show anchor and control points. Always views path.
