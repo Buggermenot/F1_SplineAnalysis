@@ -6,8 +6,8 @@
   - Velocity at each point can be calculated from derivating the spline at each point (Curvature); Smaller radius --> Less Speed
   - Travel time can be calculated from the velocity map.
 - **Constraints**
-  - Minimum turning radius
-  - Maximum acceleration / deceleration
+  - Turning Radius < Minimum turning radius
+  - Acceleration of body < Maximum acceleration / deceleration
 
 ## Work till now:
 - Simple prototype to create and save a track. (```map_builder_main```)
