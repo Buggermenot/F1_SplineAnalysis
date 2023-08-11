@@ -1,6 +1,14 @@
 # F1 Spline Analysis
 ***An attempt to mathematically model the fastest path around a track using splines.***
 
+## Optimisation Problem Statement:
+- Minimum travel time for defined spline.
+  - Velocity at each point can be calculated from derivating the spline at each point (Curvature); Smaller radius --> Less Speed
+  - Travel time can be calculated from the velocity map.
+- **Constraints**
+  - Minimum turning radius
+  - Maximum acceleration / deceleration
+
 ## Work till now:
 - Simple prototype to create and save a track. (```map_builder_main```)
 - Simple spline control to create and save a path. (```Spline_Test1```)
