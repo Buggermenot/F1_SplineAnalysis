@@ -8,6 +8,7 @@
 - **Constraints**
   - Turning Radius < Minimum turning radius
   - Acceleration of body < Maximum acceleration / deceleration
+  - Spline must be within the track at all time.
 
 ## Work till now:
 - Simple prototype to create and save a track. (```map_builder_main```)
